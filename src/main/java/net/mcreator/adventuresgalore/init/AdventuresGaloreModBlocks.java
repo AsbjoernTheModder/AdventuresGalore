@@ -1,0 +1,168 @@
+/*
+ *    MCreator note: This file will be REGENERATED on each build.
+ */
+package net.mcreator.adventuresgalore.init;
+
+import net.neoforged.neoforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.DeferredBlock;
+
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.Block;
+
+import net.mcreator.adventuresgalore.block.LeaningWoodenShovelBlock;
+import net.mcreator.adventuresgalore.block.LeaningWoodenPickaxeBlock;
+import net.mcreator.adventuresgalore.block.LeaningWoodenHoeBlock;
+import net.mcreator.adventuresgalore.block.LeaningWoodenAxeBlock;
+import net.mcreator.adventuresgalore.block.LeaningStoneShovelBlock;
+import net.mcreator.adventuresgalore.block.LeaningStonePickaxeBlock;
+import net.mcreator.adventuresgalore.block.LeaningStoneHoeBlock;
+import net.mcreator.adventuresgalore.block.LeaningStoneAxeBlock;
+import net.mcreator.adventuresgalore.block.LeaningNetheriteShovelBlock;
+import net.mcreator.adventuresgalore.block.LeaningNetheritePickaxeBlock;
+import net.mcreator.adventuresgalore.block.LeaningNetheriteHoeBlock;
+import net.mcreator.adventuresgalore.block.LeaningNetheriteAxeBlock;
+import net.mcreator.adventuresgalore.block.LeaningIronShovelBlock;
+import net.mcreator.adventuresgalore.block.LeaningIronPickaxeBlock;
+import net.mcreator.adventuresgalore.block.LeaningIronHoeBlock;
+import net.mcreator.adventuresgalore.block.LeaningIronAxeBlock;
+import net.mcreator.adventuresgalore.block.LeaningGoldenHoeBlock;
+import net.mcreator.adventuresgalore.block.LeaningGoldenAxeBlock;
+import net.mcreator.adventuresgalore.block.LeaningGoldShovelBlock;
+import net.mcreator.adventuresgalore.block.LeaningGoldPickaxeBlock;
+import net.mcreator.adventuresgalore.block.LeaningDiamondShovelBlock;
+import net.mcreator.adventuresgalore.block.LeaningDiamondPickaxeBlock;
+import net.mcreator.adventuresgalore.block.LeaningDiamondHoeBlock;
+import net.mcreator.adventuresgalore.block.LeaningDiamondAxeBlock;
+import net.mcreator.adventuresgalore.block.LayingWoodenShovelBlock;
+import net.mcreator.adventuresgalore.block.LayingWoodenPickaxeBlock;
+import net.mcreator.adventuresgalore.block.LayingWoodenHoeBlock;
+import net.mcreator.adventuresgalore.block.LayingWoodenAxeBlock;
+import net.mcreator.adventuresgalore.block.LayingStoneShovelBlock;
+import net.mcreator.adventuresgalore.block.LayingStonePickaxeBlock;
+import net.mcreator.adventuresgalore.block.LayingStoneHoeBlock;
+import net.mcreator.adventuresgalore.block.LayingStoneAxeBlock;
+import net.mcreator.adventuresgalore.block.LayingNetheriteShovelBlock;
+import net.mcreator.adventuresgalore.block.LayingNetheritePickaxeBlock;
+import net.mcreator.adventuresgalore.block.LayingNetheriteHoeBlock;
+import net.mcreator.adventuresgalore.block.LayingNetheriteAxeBlock;
+import net.mcreator.adventuresgalore.block.LayingIronShovelBlock;
+import net.mcreator.adventuresgalore.block.LayingIronPickaxeBlock;
+import net.mcreator.adventuresgalore.block.LayingIronHoeBlock;
+import net.mcreator.adventuresgalore.block.LayingIronAxeBlock;
+import net.mcreator.adventuresgalore.block.LayingGoldenShovelBlock;
+import net.mcreator.adventuresgalore.block.LayingGoldenHoeBlock;
+import net.mcreator.adventuresgalore.block.LayingGoldPickaxeBlock;
+import net.mcreator.adventuresgalore.block.LayingGoldAxeBlock;
+import net.mcreator.adventuresgalore.block.LayingDiamondShovelBlock;
+import net.mcreator.adventuresgalore.block.LayingDiamondPickaxeBlock;
+import net.mcreator.adventuresgalore.block.LayingDiamondHoeBlock;
+import net.mcreator.adventuresgalore.block.LayingDiamondAxeBlock;
+import net.mcreator.adventuresgalore.block.IncrustedWoodenShovelBlock;
+import net.mcreator.adventuresgalore.block.IncrustedWoodenPickaxeBlock;
+import net.mcreator.adventuresgalore.block.IncrustedWoodenHoeBlock;
+import net.mcreator.adventuresgalore.block.IncrustedWoodenAxeBlock;
+import net.mcreator.adventuresgalore.block.IncrustedStoneShovelBlock;
+import net.mcreator.adventuresgalore.block.IncrustedStonePickaxeBlock;
+import net.mcreator.adventuresgalore.block.IncrustedStoneHoeBlock;
+import net.mcreator.adventuresgalore.block.IncrustedStoneAxeBlock;
+import net.mcreator.adventuresgalore.block.IncrustedNetheriteShovelBlock;
+import net.mcreator.adventuresgalore.block.IncrustedNetheritePickaxeBlock;
+import net.mcreator.adventuresgalore.block.IncrustedNetheriteHoeBlock;
+import net.mcreator.adventuresgalore.block.IncrustedNetheriteAxeBlock;
+import net.mcreator.adventuresgalore.block.IncrustedIronShovelBlock;
+import net.mcreator.adventuresgalore.block.IncrustedIronPickaxeBlock;
+import net.mcreator.adventuresgalore.block.IncrustedIronHoeBlock;
+import net.mcreator.adventuresgalore.block.IncrustedIronAxeBlock;
+import net.mcreator.adventuresgalore.block.IncrustedGoldenHoeBlock;
+import net.mcreator.adventuresgalore.block.IncrustedGoldenAxeBlock;
+import net.mcreator.adventuresgalore.block.IncrustedGoldShovelBlock;
+import net.mcreator.adventuresgalore.block.IncrustedGoldPickaxeBlock;
+import net.mcreator.adventuresgalore.block.IncrustedDiamondShovelBlock;
+import net.mcreator.adventuresgalore.block.IncrustedDiamondPickaxeBlock;
+import net.mcreator.adventuresgalore.block.IncrustedDiamondHoeBlock;
+import net.mcreator.adventuresgalore.block.IncrustedDiamondAxeBlock;
+import net.mcreator.adventuresgalore.AdventuresGaloreMod;
+
+import java.util.function.Function;
+
+public class AdventuresGaloreModBlocks {
+	public static final DeferredRegister.Blocks REGISTRY = DeferredRegister.createBlocks(AdventuresGaloreMod.MODID);
+	public static final DeferredBlock<Block> INCRUSTED_WOODEN_PICKAXE = register("incrusted_wooden_pickaxe", IncrustedWoodenPickaxeBlock::new);
+	public static final DeferredBlock<Block> INCRUSTED_STONE_PICKAXE = register("incrusted_stone_pickaxe", IncrustedStonePickaxeBlock::new);
+	public static final DeferredBlock<Block> INCRUSTED_IRON_PICKAXE = register("incrusted_iron_pickaxe", IncrustedIronPickaxeBlock::new);
+	public static final DeferredBlock<Block> INCRUSTED_GOLD_PICKAXE = register("incrusted_gold_pickaxe", IncrustedGoldPickaxeBlock::new);
+	public static final DeferredBlock<Block> INCRUSTED_DIAMOND_PICKAXE = register("incrusted_diamond_pickaxe", IncrustedDiamondPickaxeBlock::new);
+	public static final DeferredBlock<Block> INCRUSTED_NETHERITE_PICKAXE = register("incrusted_netherite_pickaxe", IncrustedNetheritePickaxeBlock::new);
+	public static final DeferredBlock<Block> LAYING_WOODEN_PICKAXE = register("laying_wooden_pickaxe", LayingWoodenPickaxeBlock::new);
+	public static final DeferredBlock<Block> LAYING_STONE_PICKAXE = register("laying_stone_pickaxe", LayingStonePickaxeBlock::new);
+	public static final DeferredBlock<Block> LAYING_IRON_PICKAXE = register("laying_iron_pickaxe", LayingIronPickaxeBlock::new);
+	public static final DeferredBlock<Block> LAYING_GOLD_PICKAXE = register("laying_gold_pickaxe", LayingGoldPickaxeBlock::new);
+	public static final DeferredBlock<Block> LAYING_DIAMOND_PICKAXE = register("laying_diamond_pickaxe", LayingDiamondPickaxeBlock::new);
+	public static final DeferredBlock<Block> LAYING_NETHERITE_PICKAXE = register("laying_netherite_pickaxe", LayingNetheritePickaxeBlock::new);
+	public static final DeferredBlock<Block> LEANING_WOODEN_PICKAXE = register("leaning_wooden_pickaxe", LeaningWoodenPickaxeBlock::new);
+	public static final DeferredBlock<Block> LEANING_STONE_PICKAXE = register("leaning_stone_pickaxe", LeaningStonePickaxeBlock::new);
+	public static final DeferredBlock<Block> LEANING_IRON_PICKAXE = register("leaning_iron_pickaxe", LeaningIronPickaxeBlock::new);
+	public static final DeferredBlock<Block> LEANING_GOLD_PICKAXE = register("leaning_gold_pickaxe", LeaningGoldPickaxeBlock::new);
+	public static final DeferredBlock<Block> LEANING_DIAMOND_PICKAXE = register("leaning_diamond_pickaxe", LeaningDiamondPickaxeBlock::new);
+	public static final DeferredBlock<Block> LEANING_NETHERITE_PICKAXE = register("leaning_netherite_pickaxe", LeaningNetheritePickaxeBlock::new);
+	public static final DeferredBlock<Block> INCRUSTED_WOODEN_SHOVEL = register("incrusted_wooden_shovel", IncrustedWoodenShovelBlock::new);
+	public static final DeferredBlock<Block> INCRUSTED_STONE_SHOVEL = register("incrusted_stone_shovel", IncrustedStoneShovelBlock::new);
+	public static final DeferredBlock<Block> INCRUSTED_IRON_SHOVEL = register("incrusted_iron_shovel", IncrustedIronShovelBlock::new);
+	public static final DeferredBlock<Block> INCRUSTED_GOLDEN_SHOVEL = register("incrusted_golden_shovel", IncrustedGoldShovelBlock::new);
+	public static final DeferredBlock<Block> INCRUSTED_DIAMOND_SHOVEL = register("incrusted_diamond_shovel", IncrustedDiamondShovelBlock::new);
+	public static final DeferredBlock<Block> INCRUSTED_NETHERITE_SHOVEL = register("incrusted_netherite_shovel", IncrustedNetheriteShovelBlock::new);
+	public static final DeferredBlock<Block> LAYING_WOODEN_SHOVEL = register("laying_wooden_shovel", LayingWoodenShovelBlock::new);
+	public static final DeferredBlock<Block> LAYING_STONE_SHOVEL = register("laying_stone_shovel", LayingStoneShovelBlock::new);
+	public static final DeferredBlock<Block> LAYING_IRON_SHOVEL = register("laying_iron_shovel", LayingIronShovelBlock::new);
+	public static final DeferredBlock<Block> LAYING_GOLDEN_SHOVEL = register("laying_golden_shovel", LayingGoldenShovelBlock::new);
+	public static final DeferredBlock<Block> LAYING_DIAMOND_SHOVEL = register("laying_diamond_shovel", LayingDiamondShovelBlock::new);
+	public static final DeferredBlock<Block> LAYING_NETHERITE_SHOVEL = register("laying_netherite_shovel", LayingNetheriteShovelBlock::new);
+	public static final DeferredBlock<Block> LEANING_WOODEN_SHOVEL = register("leaning_wooden_shovel", LeaningWoodenShovelBlock::new);
+	public static final DeferredBlock<Block> LEANING_STONE_SHOVEL = register("leaning_stone_shovel", LeaningStoneShovelBlock::new);
+	public static final DeferredBlock<Block> LEANING_IRON_SHOVEL = register("leaning_iron_shovel", LeaningIronShovelBlock::new);
+	public static final DeferredBlock<Block> LEANING_GOLD_SHOVEL = register("leaning_gold_shovel", LeaningGoldShovelBlock::new);
+	public static final DeferredBlock<Block> LEANING_DIAMOND_SHOVEL = register("leaning_diamond_shovel", LeaningDiamondShovelBlock::new);
+	public static final DeferredBlock<Block> LEANING_NETHERITE_SHOVEL = register("leaning_netherite_shovel", LeaningNetheriteShovelBlock::new);
+	public static final DeferredBlock<Block> INCRUSTED_WOODEN_AXE = register("incrusted_wooden_axe", IncrustedWoodenAxeBlock::new);
+	public static final DeferredBlock<Block> INCRUSTED_STONE_AXE = register("incrusted_stone_axe", IncrustedStoneAxeBlock::new);
+	public static final DeferredBlock<Block> INCRUSTED_IRON_AXE = register("incrusted_iron_axe", IncrustedIronAxeBlock::new);
+	public static final DeferredBlock<Block> INCRUSTED_GOLDEN_AXE = register("incrusted_golden_axe", IncrustedGoldenAxeBlock::new);
+	public static final DeferredBlock<Block> INCRUSTED_DIAMOND_AXE = register("incrusted_diamond_axe", IncrustedDiamondAxeBlock::new);
+	public static final DeferredBlock<Block> INCRUSTED_NETHERITE_AXE = register("incrusted_netherite_axe", IncrustedNetheriteAxeBlock::new);
+	public static final DeferredBlock<Block> LAYING_WOODEN_AXE = register("laying_wooden_axe", LayingWoodenAxeBlock::new);
+	public static final DeferredBlock<Block> LAYING_STONE_AXE = register("laying_stone_axe", LayingStoneAxeBlock::new);
+	public static final DeferredBlock<Block> LAYING_IRON_AXE = register("laying_iron_axe", LayingIronAxeBlock::new);
+	public static final DeferredBlock<Block> LAYING_GOLD_AXE = register("laying_gold_axe", LayingGoldAxeBlock::new);
+	public static final DeferredBlock<Block> LAYING_DIAMOND_AXE = register("laying_diamond_axe", LayingDiamondAxeBlock::new);
+	public static final DeferredBlock<Block> LAYING_NETHERITE_AXE = register("laying_netherite_axe", LayingNetheriteAxeBlock::new);
+	public static final DeferredBlock<Block> LEANING_WOODEN_AXE = register("leaning_wooden_axe", LeaningWoodenAxeBlock::new);
+	public static final DeferredBlock<Block> LEANING_STONE_AXE = register("leaning_stone_axe", LeaningStoneAxeBlock::new);
+	public static final DeferredBlock<Block> LEANING_IRON_AXE = register("leaning_iron_axe", LeaningIronAxeBlock::new);
+	public static final DeferredBlock<Block> LEANING_GOLDEN_AXE = register("leaning_golden_axe", LeaningGoldenAxeBlock::new);
+	public static final DeferredBlock<Block> LEANING_DIAMOND_AXE = register("leaning_diamond_axe", LeaningDiamondAxeBlock::new);
+	public static final DeferredBlock<Block> LEANING_NETHERITE_AXE = register("leaning_netherite_axe", LeaningNetheriteAxeBlock::new);
+	public static final DeferredBlock<Block> INCRUSTED_WOODEN_HOE = register("incrusted_wooden_hoe", IncrustedWoodenHoeBlock::new);
+	public static final DeferredBlock<Block> INCRUSTED_STONE_HOE = register("incrusted_stone_hoe", IncrustedStoneHoeBlock::new);
+	public static final DeferredBlock<Block> INCRUSTED_IRON_HOE = register("incrusted_iron_hoe", IncrustedIronHoeBlock::new);
+	public static final DeferredBlock<Block> INCRUSTED_GOLDEN_HOE = register("incrusted_golden_hoe", IncrustedGoldenHoeBlock::new);
+	public static final DeferredBlock<Block> INCRUSTED_DIAMOND_HOE = register("incrusted_diamond_hoe", IncrustedDiamondHoeBlock::new);
+	public static final DeferredBlock<Block> INCRUSTED_NETHERITE_HOE = register("incrusted_netherite_hoe", IncrustedNetheriteHoeBlock::new);
+	public static final DeferredBlock<Block> LAYING_WOODEN_HOE = register("laying_wooden_hoe", LayingWoodenHoeBlock::new);
+	public static final DeferredBlock<Block> LAYING_STONE_HOE = register("laying_stone_hoe", LayingStoneHoeBlock::new);
+	public static final DeferredBlock<Block> LAYING_IRON_HOE = register("laying_iron_hoe", LayingIronHoeBlock::new);
+	public static final DeferredBlock<Block> LAYING_GOLDEN_HOE = register("laying_golden_hoe", LayingGoldenHoeBlock::new);
+	public static final DeferredBlock<Block> LAYING_DIAMOND_HOE = register("laying_diamond_hoe", LayingDiamondHoeBlock::new);
+	public static final DeferredBlock<Block> LAYING_NETHERITE_HOE = register("laying_netherite_hoe", LayingNetheriteHoeBlock::new);
+	public static final DeferredBlock<Block> LEANING_WOODEN_HOE = register("leaning_wooden_hoe", LeaningWoodenHoeBlock::new);
+	public static final DeferredBlock<Block> LEANING_STONE_HOE = register("leaning_stone_hoe", LeaningStoneHoeBlock::new);
+	public static final DeferredBlock<Block> LEANING_IRON_HOE = register("leaning_iron_hoe", LeaningIronHoeBlock::new);
+	public static final DeferredBlock<Block> LEANING_GOLDEN_HOE = register("leaning_golden_hoe", LeaningGoldenHoeBlock::new);
+	public static final DeferredBlock<Block> LEANING_DIAMOND_HOE = register("leaning_diamond_hoe", LeaningDiamondHoeBlock::new);
+	public static final DeferredBlock<Block> LEANING_NETHERITE_HOE = register("leaning_netherite_hoe", LeaningNetheriteHoeBlock::new);
+
+	// Start of user code block custom blocks
+	// End of user code block custom blocks
+	private static <B extends Block> DeferredBlock<B> register(String name, Function<BlockBehaviour.Properties, ? extends B> supplier) {
+		return REGISTRY.registerBlock(name, supplier, BlockBehaviour.Properties.of());
+	}
+}

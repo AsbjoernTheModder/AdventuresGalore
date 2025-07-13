@@ -1,0 +1,9 @@
+{
+  "parent": "adventures_galore:custom/incrusted_diamond_pickaxe",
+  "textures": {
+    "all": "adventures_galore:block/diamond_pickaxe",
+    "particle": "minecraft:block/diamond_block",
+    "0": "adventures_galore:block/diamond_pickaxe"
+  },
+  "render_type": "cutout_mipped"
+}

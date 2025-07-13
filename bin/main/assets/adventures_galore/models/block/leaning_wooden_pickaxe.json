@@ -1,0 +1,9 @@
+{
+  "parent": "adventures_galore:custom/leaning_wooden_pickaxe",
+  "textures": {
+    "all": "adventures_galore:block/wooden_pickaxe",
+    "particle": "minecraft:block/oak_log",
+    "missing": "adventures_galore:block/wooden_pickaxe"
+  },
+  "render_type": "cutout_mipped"
+}

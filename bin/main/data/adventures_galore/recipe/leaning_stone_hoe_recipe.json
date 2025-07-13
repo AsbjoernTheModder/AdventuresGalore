@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": "minecraft:cobblestone",
+    "b": "minecraft:stone_hoe"
+  },
+  "result": {
+    "id": "adventures_galore:leaning_stone_hoe",
+    "count": 1
+  }
+}

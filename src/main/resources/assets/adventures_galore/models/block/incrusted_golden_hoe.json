@@ -1,0 +1,9 @@
+{
+  "parent": "adventures_galore:custom/incrusted_golden_hoe",
+  "textures": {
+    "all": "adventures_galore:block/golden_hoe",
+    "particle": "minecraft:block/gold_block",
+    "5": "adventures_galore:block/golden_hoe"
+  },
+  "render_type": "cutout_mipped"
+}

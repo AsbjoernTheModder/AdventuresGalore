@@ -1,0 +1,9 @@
+{
+  "parent": "adventures_galore:custom/incrusted_iron_hoe",
+  "textures": {
+    "all": "adventures_galore:block/iron_hoe",
+    "particle": "minecraft:block/iron_block",
+    "5": "adventures_galore:block/iron_hoe"
+  },
+  "render_type": "cutout_mipped"
+}

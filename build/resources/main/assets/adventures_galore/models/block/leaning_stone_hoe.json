@@ -1,0 +1,9 @@
+{
+  "parent": "adventures_galore:custom/leaning_stone_hoe",
+  "textures": {
+    "all": "adventures_galore:block/stone_hoe",
+    "particle": "minecraft:block/cobblestone",
+    "5": "adventures_galore:block/stone_hoe"
+  },
+  "render_type": "cutout_mipped"
+}

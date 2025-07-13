@@ -1,0 +1,9 @@
+{
+  "parent": "adventures_galore:custom/incrusted_stone_axe",
+  "textures": {
+    "all": "adventures_galore:block/stone_axe",
+    "particle": "minecraft:block/cobblestone",
+    "0": "adventures_galore:block/stone_axe"
+  },
+  "render_type": "cutout_mipped"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "adventures_galore:custom/leaning_netherite_pickaxe",
+  "textures": {
+    "all": "adventures_galore:block/netherite_pickaxe",
+    "particle": "minecraft:block/netherite_block",
+    "missing": "adventures_galore:block/netherite_pickaxe"
+  },
+  "render_type": "cutout_mipped"
+}

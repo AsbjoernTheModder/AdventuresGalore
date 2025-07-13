@@ -1,0 +1,54 @@
+{
+  "_fv": 79,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_enitity_health_return_text",
+          "text": {
+            "fixedValue": "",
+            "name": "EnitityHealthReturnText"
+          },
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "anchorPoint": "TOP_CENTER",
+          "x": 213,
+          "y": 8,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_enitity_armor_return_text",
+          "text": {
+            "fixedValue": "",
+            "name": "EnitityArmorReturnText"
+          },
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "anchorPoint": "TOP_CENTER",
+          "x": 213,
+          "y": 17,
+          "locked": false
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

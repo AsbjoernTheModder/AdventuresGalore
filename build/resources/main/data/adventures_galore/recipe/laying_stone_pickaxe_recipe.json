@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": "minecraft:stone_pickaxe",
+    "b": "minecraft:cobblestone"
+  },
+  "result": {
+    "id": "adventures_galore:laying_stone_pickaxe",
+    "count": 1
+  }
+}

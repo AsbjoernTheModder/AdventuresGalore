@@ -1,0 +1,9 @@
+{
+  "parent": "adventures_galore:custom/incrusted_gold_pickaxe",
+  "textures": {
+    "all": "adventures_galore:block/gold_pickaxe",
+    "particle": "minecraft:block/gold_block",
+    "0": "adventures_galore:block/gold_pickaxe"
+  },
+  "render_type": "cutout_mipped"
+}

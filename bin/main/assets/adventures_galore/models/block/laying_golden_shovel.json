@@ -1,0 +1,9 @@
+{
+  "parent": "adventures_galore:custom/laying_golden_shovel",
+  "textures": {
+    "all": "adventures_galore:block/goldenshovel",
+    "particle": "minecraft:block/gold_block",
+    "0": "adventures_galore:block/goldenshovel"
+  },
+  "render_type": "cutout_mipped"
+}

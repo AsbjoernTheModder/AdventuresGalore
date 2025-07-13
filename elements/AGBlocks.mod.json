@@ -1,0 +1,11 @@
+{
+  "_fv": 79,
+  "_type": "tab",
+  "definition": {
+    "name": "AG Blocks",
+    "icon": {
+      "value": "Blocks.CHERRY_SAPLING"
+    },
+    "showSearch": true
+  }
+}

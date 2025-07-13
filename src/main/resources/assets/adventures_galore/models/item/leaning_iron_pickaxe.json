@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "adventures_galore:item/leaning_iron_pickaxe_inventory"
+  },
+  "render_type": "translucent"
+}

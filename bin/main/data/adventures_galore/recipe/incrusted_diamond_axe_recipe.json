@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab"
+  ],
+  "key": {
+    "a": "minecraft:diamond_axe",
+    "b": "minecraft:cobblestone"
+  },
+  "result": {
+    "id": "adventures_galore:incrusted_diamond_axe",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": "minecraft:cobblestone",
+    "b": "minecraft:diamond_pickaxe"
+  },
+  "result": {
+    "id": "adventures_galore:leaning_diamond_pickaxe",
+    "count": 1
+  }
+}

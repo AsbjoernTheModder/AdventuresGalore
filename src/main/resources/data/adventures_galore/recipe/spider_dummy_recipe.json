@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": "minecraft:spider_eye",
+    "b": "minecraft:hay_block",
+    "c": "minecraft:oak_fence"
+  },
+  "result": {
+    "id": "adventures_galore:spider_dummy_item",
+    "count": 1
+  }
+}

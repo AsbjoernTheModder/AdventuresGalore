@@ -1,0 +1,9 @@
+{
+  "parent": "adventures_galore:custom/laying_wooden_hoe",
+  "textures": {
+    "all": "adventures_galore:block/wooden_hoe",
+    "particle": "minecraft:block/oak_log",
+    "5": "adventures_galore:block/wooden_hoe"
+  },
+  "render_type": "cutout_mipped"
+}

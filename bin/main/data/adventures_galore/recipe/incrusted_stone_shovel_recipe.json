@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab"
+  ],
+  "key": {
+    "a": "minecraft:stone_shovel",
+    "b": "minecraft:cobblestone"
+  },
+  "result": {
+    "id": "adventures_galore:incrusted_stone_shovel",
+    "count": 1
+  }
+}

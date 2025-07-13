@@ -1,0 +1,9 @@
+{
+  "parent": "adventures_galore:custom/leaning_iron__shovel",
+  "textures": {
+    "all": "adventures_galore:block/ironshovel",
+    "particle": "minecraft:block/iron_block",
+    "0": "adventures_galore:block/ironshovel"
+  },
+  "render_type": "cutout_mipped"
+}

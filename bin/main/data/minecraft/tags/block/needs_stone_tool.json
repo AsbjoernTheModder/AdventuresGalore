@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "adventures_galore:incrusted_iron_hoe",
+    "adventures_galore:incrusted_iron_axe",
+    "adventures_galore:incrusted_iron_pickaxe",
+    "adventures_galore:laying_iron_hoe",
+    "adventures_galore:laying_iron_axe",
+    "adventures_galore:laying_iron_shovel",
+    "adventures_galore:incrusted_iron_shovel"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "adventures_galore:custom/laying_netherite_axe",
+  "textures": {
+    "all": "adventures_galore:block/netherite_axe",
+    "particle": "minecraft:block/netherite_block",
+    "0": "adventures_galore:block/netherite_axe"
+  },
+  "render_type": "cutout_mipped"
+}

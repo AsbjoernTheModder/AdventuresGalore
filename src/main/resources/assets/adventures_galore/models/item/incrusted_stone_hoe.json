@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "adventures_galore:item/incrusted_stone_hoe_inventory"
+  },
+  "render_type": "translucent"
+}

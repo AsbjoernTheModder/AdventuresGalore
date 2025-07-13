@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": "minecraft:cobblestone",
+    "b": "minecraft:wooden_shovel"
+  },
+  "result": {
+    "id": "adventures_galore:leaning_wooden_shovel",
+    "count": 1
+  }
+}

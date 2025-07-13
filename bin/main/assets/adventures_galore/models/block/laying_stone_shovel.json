@@ -1,0 +1,9 @@
+{
+  "parent": "adventures_galore:custom/laying_stone_shovel",
+  "textures": {
+    "all": "adventures_galore:block/stoneshovel",
+    "particle": "minecraft:block/cobblestone",
+    "0": "adventures_galore:block/stoneshovel"
+  },
+  "render_type": "cutout_mipped"
+}

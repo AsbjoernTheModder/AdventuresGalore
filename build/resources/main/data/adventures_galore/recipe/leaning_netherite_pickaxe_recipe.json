@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": "minecraft:cobblestone",
+    "b": "minecraft:netherite_pickaxe"
+  },
+  "result": {
+    "id": "adventures_galore:leaning_netherite_pickaxe",
+    "count": 1
+  }
+}

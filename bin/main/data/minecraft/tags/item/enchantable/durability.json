@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "adventures_galore:zombie_dummy_item",
+    "adventures_galore:enderman_dummy_item",
+    "adventures_galore:stick_of_despawn",
+    "adventures_galore:spider_dummy_item",
+    "adventures_galore:skeleton_dummy_item",
+    "adventures_galore:creeper_dummy_item"
+  ]
+}

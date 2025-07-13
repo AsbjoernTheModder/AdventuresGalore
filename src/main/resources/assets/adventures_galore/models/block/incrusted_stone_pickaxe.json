@@ -1,0 +1,9 @@
+{
+  "parent": "adventures_galore:custom/incrusted_stone_pickaxe",
+  "textures": {
+    "all": "adventures_galore:block/stone_pickaxe",
+    "particle": "minecraft:block/cobblestone",
+    "0": "adventures_galore:block/stone_pickaxe"
+  },
+  "render_type": "cutout_mipped"
+}

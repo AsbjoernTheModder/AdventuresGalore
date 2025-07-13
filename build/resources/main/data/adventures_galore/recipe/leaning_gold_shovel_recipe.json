@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": "minecraft:cobblestone",
+    "b": "minecraft:golden_shovel"
+  },
+  "result": {
+    "id": "adventures_galore:leaning_gold_shovel",
+    "count": 1
+  }
+}

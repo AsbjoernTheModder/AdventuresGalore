@@ -1,0 +1,9 @@
+{
+  "parent": "adventures_galore:custom/laying_gold_pickaxe",
+  "textures": {
+    "all": "adventures_galore:block/gold_pickaxe",
+    "particle": "minecraft:block/gold_block",
+    "missing": "adventures_galore:block/gold_pickaxe"
+  },
+  "render_type": "cutout_mipped"
+}

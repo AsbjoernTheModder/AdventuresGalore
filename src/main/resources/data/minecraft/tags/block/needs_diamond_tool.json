@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "adventures_galore:leaning_netherite_hoe",
+    "adventures_galore:leaning_netherite_axe",
+    "adventures_galore:laying_netherite_shovel",
+    "adventures_galore:laying_netherite_hoe",
+    "adventures_galore:laying_netherite_axe",
+    "adventures_galore:incrusted_netherite_axe",
+    "adventures_galore:incrusted_netherite_hoe",
+    "adventures_galore:incrusted_netherite_pickaxe",
+    "adventures_galore:incrusted_netherite_shovel",
+    "adventures_galore:leaning_netherite_pickaxe",
+    "adventures_galore:leaning_netherite_shovel",
+    "adventures_galore:laying_netherite_pickaxe"
+  ]
+}

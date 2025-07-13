@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": "minecraft:rotten_flesh",
+    "b": "minecraft:hay_block",
+    "c": "minecraft:oak_fence"
+  },
+  "result": {
+    "id": "adventures_galore:zombie_dummy_item",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "5": "wooden_hoe"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": "minecraft:wooden_axe",
+    "b": "minecraft:cobblestone"
+  },
+  "result": {
+    "id": "adventures_galore:laying_wooden_axe",
+    "count": 1
+  }
+}

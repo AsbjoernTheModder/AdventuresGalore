@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "adventures_galore:leaning_diamond_axe",
+    "adventures_galore:leaning_gold_axe",
+    "adventures_galore:laying_diamond_axe",
+    "adventures_galore:laying_gold_axe",
+    "adventures_galore:incrusted_diamond_axe",
+    "adventures_galore:incrusted_golden_axe",
+    "adventures_galore:leaning_diamond_shovel",
+    "adventures_galore:leaning_gold_shovel",
+    "adventures_galore:laying_diamond_shovel",
+    "adventures_galore:laying_golden_shovel",
+    "adventures_galore:incrusted_diamond_shovel",
+    "adventures_galore:incrusted_golden_shovel",
+    "adventures_galore:leaning_diamond_pickaxe",
+    "adventures_galore:leaning_gold_pickaxe",
+    "adventures_galore:laying_diamond_pickaxe",
+    "adventures_galore:laying_gold_pickaxe",
+    "adventures_galore:incrusted_diamond_pickaxe",
+    "adventures_galore:incrusted_gold_pickaxe"
+  ]
+}
