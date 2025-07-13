@@ -6160,45 +6160,6 @@
       "path": "~/Functional Blocks/Enderman Dummy"
     },
     {
-      "name": "VanillaDamageIndicator",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vanilla_damage_indicator",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "damagesource",
-            "type": "damagesource"
-          },
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ],
-        "files": [
-          "src/main/java/net/mcreator/adventuresgalore/procedures/VanillaDamageIndicatorProcedure.java"
-        ]
-      },
-      "path": "~/Combat System/Damage Types and Indicators/Vanilla Damage"
-    },
-    {
       "name": "DamageDisplayParticleEntity",
       "type": "livingentity",
       "compiles": true,
@@ -6318,10 +6279,79 @@
         "files": [
           "src/main/java/net/mcreator/adventuresgalore/mixin/LivingEntityMixin.java"
         ]
-      }
+      },
+      "path": "~/Mixins"
+    },
+    {
+      "name": "VanillaDamageIndicator",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanilla_damage_indicator",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "damagesource",
+            "type": "damagesource"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/adventuresgalore/procedures/VanillaDamageIndicatorProcedure.java"
+        ]
+      },
+      "path": "~/Combat System/Damage Types and Indicators/Vanilla Damage"
+    },
+    {
+      "name": "Test",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/adventuresgalore/procedures/TestProcedure.java"
+        ]
+      },
+      "path": "~/Combat System/Damage Types and Indicators/Vanilla Damage"
+    },
+    {
+      "name": "AttributeUncap",
+      "type": "mixin",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "attribute_uncap",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/adventuresgalore/mixin/AttributeUncapMixin.java"
+        ]
+      },
+      "path": "~/Mixins"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "floating_texts",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "\"\""
+    },
+    {
+      "name": "floating_texts_timer",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:needs_iron_tool": [
@@ -6611,6 +6641,7 @@
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/adventuresgalore/network/AdventuresGaloreModVariables.java",
       "src/main/java/net/mcreator/adventuresgalore/init/AdventuresGaloreModModels.java",
       "src/main/resources/pack.mcmeta",
       "src/main/resources/adventures_galore.mixins.json",
@@ -6828,5 +6859,5 @@
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.adventuresgalore"
   },
-  "mcreatorVersion": 202500227613
+  "mcreatorVersion": 202500228610
 }
